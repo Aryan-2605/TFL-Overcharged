@@ -15,17 +15,25 @@ with open('activity.csv', mode='r') as csvfile:
 #print(index)
 
 valid_index = []
+date_charges = {}
 
 for i, date in enumerate(headers['Description']):
     if headers['Description'][i] == 'TFL TRAVEL CHARGE       TFL.GOV.UK/CP':
         valid_index.append(i)
 
-#print(valid_index)
-cost = 0
 for i in valid_index:
-    cost += float(headers['Amount'][i])
-    print(headers['Date'][i], headers['Description'][i], headers['Amount'][i])
+    date = headers['Date'][i]
+    cost = float(headers['Amount'][i])
 
+    if date in date_charges:
+        date_charges[date] += cost
+    else:
+        date_charges[date] = cost
 
-cost = round(cost, 2)
-print(f'Total cost: {cost}')
+total_cost = 0
+for date, total in date_charges.items():
+    print(f'{date} TFL TRAVEL CHARGE       TFL.GOV.UK/CP {round(total, 2)}')
+    total_cost += total
+
+total_cost = round(total_cost, 2)
+print(f'Total cost: {total_cost}')
