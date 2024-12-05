@@ -1,24 +1,4 @@
 import csv
-import pandas as pd
-is_amount_of_statements_valid = False
-while not is_amount_of_statements_valid:
-    try:
-        amount_of_statements = int(input("How many statements do have? "))
-        if amount_of_statements <= 0:
-            print("Invalid Input")
-        else:
-            is_amount_of_statements_valid = True
-    except ValueError:
-        print("Please enter an integer")
-
-file_names = []
-
-for i in range(amount_of_statements):
-    input_file = input("Enter file name include .csv: ")
-
-
-
-
 with open('activity.csv', mode='r') as csvfile:
     reader = csv.DictReader(csvfile)
 
