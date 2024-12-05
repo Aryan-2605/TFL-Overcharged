@@ -1,8 +1,9 @@
 NOTE: THIS ONLY WORKS FOR AMEX!
 
-1) Download an AMEX statement as a CSV and put it in the folder with the main method.
+1) Download as many .CSV statements that are in the format Date, Description and Amount and place it in the Overcharged By TFL Folder 
 2) Run the script
 3) You will see all the filtered charged by TFL.
+4) Check the Output folder and you will see a CSV file with all your TFL charges.
 
-This initial build should make it easier to sort through your credit card statement to ask for refunds. This was created due to the TFL cyber attack which halted refunds for 3 months. The next update will automatically go through multiple CSV files and compile the results 
-in another CSV file. 
+
+Now filtering through the many months of TFL charges can never be anymore easier! The outputted CSV file will allow you to do you own analytics. This all will help you determine how much you have been overcharged in total  
