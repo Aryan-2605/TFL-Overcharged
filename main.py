@@ -1,39 +1,44 @@
 import csv
-with open('activity.csv', mode='r') as csvfile:
-    reader = csv.DictReader(csvfile)
+import input_validation as validate
 
-    headers = {header: [] for header in reader.fieldnames}
+validate.wipe_file()
+csv_files = validate.validate_files()
+validate.export_row('Date', 'Description', 'Amount')
+for file in csv_files:
 
-    for row in reader:
-        for header, value in row.items():
-            headers[header].append(value)
+    print(f'{file} Statement')
 
-#for header, values in headers.items():
-    #print(f'{header}: {values}')
+    with open(file, mode='r') as csvfile:
+        reader = csv.DictReader(csvfile)
 
-#index = headers['Date'].index('03/12/2024')
-#print(index)
+        headers = {header: [] for header in reader.fieldnames}
 
-valid_index = []
-date_charges = {}
+        for row in reader:
+            for header, value in row.items():
+                headers[header].append(value)
 
-for i, date in enumerate(headers['Description']):
-    if headers['Description'][i] == 'TFL TRAVEL CHARGE       TFL.GOV.UK/CP':
-        valid_index.append(i)
+    valid_index = []
+    date_charges = {}
 
-for i in valid_index:
-    date = headers['Date'][i]
-    cost = float(headers['Amount'][i])
+    for i, date in enumerate(headers['Description']):
+        if headers['Description'][i] == 'TFL TRAVEL CHARGE       TFL.GOV.UK/CP':
+            valid_index.append(i)
 
-    if date in date_charges:
-        date_charges[date] += cost
-    else:
-        date_charges[date] = cost
+    for i in valid_index:
+        date = headers['Date'][i]
+        cost = float(headers['Amount'][i])
 
-total_cost = 0
-for date, total in date_charges.items():
-    print(f'{date} TFL TRAVEL CHARGE       TFL.GOV.UK/CP {round(total, 2)}')
-    total_cost += total
+        if date in date_charges:
+            date_charges[date] += cost
+        else:
+            date_charges[date] = cost
 
-total_cost = round(total_cost, 2)
-print(f'Total cost: {total_cost}')
+    total_cost = 0
+    for date, total in date_charges.items():
+        print(f'{date} TFL TRAVEL CHARGE       TFL.GOV.UK/CP {round(total, 2)}')
+        validate.export_row(date, 'TFL TRAVEL CHARGE       TFL.GOV.UK/CP', round(total, 2))
+        total_cost += total
+
+    total_cost = round(total_cost, 2)
+    print(f'Total TFL Charges: {total_cost}')
+    print()
