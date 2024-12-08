@@ -42,3 +42,5 @@ for file in csv_files:
     total_cost = round(total_cost, 2)
     print(f'Total TFL Charges: {total_cost}')
     print()
+    print(headers)
+    print(date_charges)

@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c06c2f8f-ab26-4e4e-8364-ec6902c3f212" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Overcharged By TFL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="c06c2f8f-ab26-4e4e-8364-ec6902c3f212" name="Changes" comment="README.md Updated">
+      <change afterPath="$PROJECT_DIR$/Application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/TFL Output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Output/TFL Output.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_version/input_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_version/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,32 +34,90 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pnVSEjKP3xvun7HSap0LgpeGrk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Python.input_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aryan/PycharmProjects/WTWExam&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aryan\PycharmProjects\Overcharged By TFL\old_version" />
       <recent name="C:\Users\Aryan\PycharmProjects\Overcharged By TFL" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.Application">
+    <configuration name="Application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Overcharged By TFL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Overcharged By TFL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Aryan\PycharmProjects\Overcharged By TFL\old_version\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Application" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -72,14 +135,101 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733401824018</updated>
-      <workItem from="1733401827082" duration="4311000" />
+      <workItem from="1733401827082" duration="18862000" />
+      <workItem from="1733521152889" duration="1873000" />
+      <workItem from="1733592089278" duration="80000" />
+      <workItem from="1733608581734" duration="174000" />
+      <workItem from="1733608784204" duration="765000" />
+      <workItem from="1733661433028" duration="130000" />
+      <workItem from="1733661867962" duration="699000" />
+      <workItem from="1733663289649" duration="103000" />
+      <workItem from="1733663407368" duration="11657000" />
     </task>
+    <task id="LOCAL-00001" summary="V1: This is a basic version that will split all your AMEX charges and filter it by charges done by TFL. More updates will be coming soon">
+      <option name="closed" value="true" />
+      <created>1733406497910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733406497910</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cleaned main.py, moved validation to a worker class (input_validation.py)">
+      <option name="closed" value="true" />
+      <created>1733407419150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733407419150</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Now the returned entries will be combined if the dates are the same. Will show you total expenditure per day.">
+      <option name="closed" value="true" />
+      <created>1733410522936</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733410522936</updated>
+    </task>
+    <task id="LOCAL-00004" summary="This version has the following features:&#10;&#10;Multiple CSV files at once&#10;Export to one CSV file in the output folder&#10;Improved time complexity for larger files&#10;&#10;Next commit might include:&#10;Abnormal price detector &#10;Option to have multiple CSV outputs &#10;Support for other Credit Cards / Banks">
+      <option name="closed" value="true" />
+      <created>1733428501620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733428501620</updated>
+    </task>
+    <task id="LOCAL-00005" summary="README.md Updated">
+      <option name="closed" value="true" />
+      <created>1733428866355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733428866355</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V1: This is a basic version that will split all your AMEX charges and filter it by charges done by TFL. More updates will be coming soon" />
+    <MESSAGE value="Cleaned main.py, moved validation to a worker class (input_validation.py)" />
+    <MESSAGE value="Now the returned entries will be combined if the dates are the same. Will show you total expenditure per day." />
+    <MESSAGE value="This version has the following features:&#10;&#10;Multiple CSV files at once&#10;Export to one CSV file in the output folder&#10;Improved time complexity for larger files&#10;&#10;Next commit might include:&#10;Abnormal price detector &#10;Option to have multiple CSV outputs &#10;Support for other Credit Cards / Banks" />
+    <MESSAGE value="README.md Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md Updated" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Overcharged_By_TFL$main.coverage" NAME="main Coverage Results" MODIFIED="1733405951983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Overcharged_By_TFL$input_validation.coverage" NAME="input_validation Coverage Results" MODIFIED="1733422268367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Overcharged_By_TFL$Application.coverage" NAME="Application Coverage Results" MODIFIED="1733676378005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Overcharged_By_TFL$main.coverage" NAME="main Coverage Results" MODIFIED="1733673926830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
